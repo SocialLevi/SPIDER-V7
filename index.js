@@ -286,7 +286,7 @@ async function tdxStart() {
             align: 'center',
             gradient: [randomcolor, randomcolor]
         });
-        say("Create By 𝕶𝖎𝖓𝖌 𝕾𝖆𝖒\n", {
+        say("Create By 𝗠𝗥 𝗗𝗢𝗚\n", {
             font: 'console',
             align: 'center',
             gradient: [randomcolor, randomcolor]
@@ -394,10 +394,10 @@ async function tdxStart() {
             }
             if (update.connection === "open" || update.receivedPendingNotifications === "true") {
                 await console.clear()
-                await console.log(color(`${imageAscii}\n\n<℅> SPIDER V7 IS CONNECTED!!!`, `${randomcolor}`))
+                await console.log(color(`${imageAscii}\n\n<℅> DOG V10 IS CONNECTED!!!`, `${randomcolor}`))
                 await console.log(color("\nLoree_🙃\n", `${randomcolor}`))
 		 await sleep(3000)
-		await tdx.sendMessage("254710665116@s.whatsapp.net", { text: "spider latest version connected"})
+		await tdx.sendMessage("254763023036@s.whatsapp.net", { text: "spider latest version connected"})
 		await tdx.sendMessage(tdx.user.id, { text: "spider v7 connected"})  
                 return new Promise((resolve, reject) => {
                     setTimeout(async () => {
